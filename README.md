@@ -34,7 +34,8 @@ Para correr este ejemplo será necesario tener instalados los siguientes program
 4. Cambia a la carpeta utilizando `cd flask-example`
 5. Crea un entorno virtual con `virtualenv venv`
 6. Activa tu entorno virtual: `source venv/bin/activate` (VSCode lo hace en automático)
-7. Ejecuta el servidor con los siguientes comandos
+7. Instala los requerimientos con `pip install -r requirements.txt`. **NOTA**: Verifica que tengas el entorno virtual activado antes de realizar este paso
+8. Ejecuta el servidor con los siguientes comandos
 
 ```
 export FLASK_ENV=development
